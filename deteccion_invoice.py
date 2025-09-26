@@ -153,8 +153,7 @@ def correr_facturas():
         print("🚫 No se encontraron imágenes de calificaciones.")
         return
 
-    for ruta in archivos:
-        procesar_boletin(ruta)
+    
 
 # =========================
 #  MAIN
